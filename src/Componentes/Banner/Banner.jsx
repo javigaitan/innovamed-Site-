@@ -25,7 +25,7 @@ function Banner() {
                             Disfruta de tu <span className="font-normal italic"> vida sexual </span>
                         </h1>
                         <p role="contentinfo" className="focus:outline-none text-base leading-6 mt-8 text-gray-600 2xl:pr-24 xl:pr-0 pr-12">
-                            Don’t get carried away with super-short paragraphs. The secret to one-sentence paragraphs is to use them like a spice: A pinch of cumin can make a meal more savor.
+                        En nuestro centros especializado, ofrecemos servicios para abordar una variedad de problemas sexuales, brindándote soluciones efectivas y discretas.
                         </p>
                         <div className="mt-10">
                             <button className="flex items-center md:p-3 p-1 focus:outline-none text-xl font-medium leading-5 text-gray-800 focus:ring-2 focus:ring-offset-2 focus:ring-gray-700">
@@ -44,7 +44,7 @@ function Banner() {
                     </div>
                     <div className="xl:w-4/6 md:w-1/2 w-full xl:pl-48">
                         <p role="contentinfo" className=" focus:outline-none text-base leading-6 mb-8 text-gray-600 md:mt-0 mt-10">
-                            “Don’t get carried away with super-short paragraphs. The secret to one-sentence paragraphs is to use them like a spice: A pinch of cumin can make a meal more savory, but I don’t want to eat a plateful of the stuff.”
+                        "Descubre la felicidad en tu vida íntima. En nuestro hospital especializado, encontrará apoyo experto para revitalizar tu vida sexual y cultivar relaciones amorosas y satisfactorias"
                         </p>
                         <div className="w-full">
                             <img src={Fotobanner} alt="Purple flowers on a book" className="md:w-full sm:w-1/2 w-full" />

@@ -56,7 +56,7 @@ function Navbar() {
                                     </a>
                                 </li>
                                 <li className="transform transition-transform duration-200 hover:scale-105" >
-                                    <a href="javascript:void(0)" className="text-base text-gray-800 hover:text-violet-600 hover:underline font-bold">
+                                    <a href="contacto" className="text-base text-gray-800 hover:text-violet-600 hover:underline font-bold">
                                         Contactos
                                     </a>
                                 </li>

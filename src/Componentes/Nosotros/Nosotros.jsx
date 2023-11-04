@@ -15,6 +15,8 @@ function Nosotros ()  {
                 </div>
             </div>
 
+            {/*
+
             <div className="relative mt-24">
                 <div className="grid sm:grid-cols-3 grid-cols-2 sm:gap-8 gap-4">
                     <div className="z-20 w-12 h-12 bg-gray-800 rounded-full flex justify-center items-center">
@@ -44,6 +46,7 @@ function Nosotros ()  {
                 </div>
                 <hr className="z-10 absolute top-2/4 w-full bg-gray-200" />
             </div>
+            
             <div className="grid sm:grid-cols-3 grid-cols-2 sm:gap-8 gap-4">
                 <div>
                     <p className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800 mt-6">Founded</p>
@@ -76,6 +79,7 @@ function Nosotros ()  {
                     <p className="font-normal text-base leading-6 text-gray-600 mt-6">En Innovamed, nos comprometemos a hablar con total transparencia y sinceridad. Creemos firmemente que abordar la disfunción eréctil y la eyaculación precoz de manera abierta es el primer paso para superar estos desafíos. Proporcionamos información precisa y oportuna para brindarte la tranquilidad que mereces.</p>
                 </div>
             </div>
+            */}
 
         </div>
     );

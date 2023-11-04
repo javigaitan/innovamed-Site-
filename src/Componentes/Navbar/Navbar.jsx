@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Logo from "../../assets/Logo-Principal.png";
 import '../../App.css';
+import Cta from "../CTA/Cta";
 
 
 function Navbar() {
@@ -60,6 +61,7 @@ function Navbar() {
                                     </a>
                                 </li>
                             </ul>
+
                             <div className="md:w-2/12 justify-end flex items-center space-x-4 xl:space-x-8">
                                 <div className="hidden lg:flex items-center">
                                     <button onClick={() => setSearchInput(!searchInput)} aria-label="search items" className="text-gray-800 dark:hover:text-gray-300 dark:text-white focus:outline-none focus:ring-2 focus:ring-gray-800">
@@ -81,7 +83,7 @@ function Navbar() {
                         </div>
                     </div>
                     {/* For small screen */}
-                    <div id="mobile-menu" className={`${showMenu ? "flex" : "hidden"} absolute dark:bg-gray-900 z-10 inset-0 md:hidden bg-white flex-col h-screen w-full`}>
+                    <div id="mobile-menu" className={`${showMenu ? "flex" : "hidden"} absolute dark:bg-gray-900 z-15 inset-0 md:hidden bg-white flex-col h-screen w-full`}>
                         <div className="flex items-center justify-between border-b border-gray-200 dark:border-gray-700 pb-4 p-4">
                             <div className="flex items-center space-x-3">
                                 <div>
@@ -150,7 +152,7 @@ function Navbar() {
                                                 <path d="M15.4436 9C15.4436 10.0609 14.9753 11.0783 14.1418 11.8284C13.3083 12.5786 12.1779 13 10.9991 13C9.82039 13 8.68993 12.5786 7.85643 11.8284C7.02294 11.0783 6.55469 10.0609 6.55469 9" stroke="currentColor" strokeWidth="1.25" strokeLinecap="round" strokeLinejoin="round" />
                                             </svg>
                                         </div>
-                                        <p className="text-base">BTN WHATSPP</p>
+                                        <button className="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-800 hover:opacity-90 w-48 h-12 text-lg text-white bg-gradient-to-l from-indigo-600 to-indigo-700 rounded">Download Now</button>
                                     </a>
                                 </li>
                                
@@ -161,6 +163,7 @@ function Navbar() {
             </div>
         </div>
         </div>
+        <Cta/>
 
         </>
     );

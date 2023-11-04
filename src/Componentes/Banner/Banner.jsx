@@ -18,8 +18,8 @@ function Banner() {
         <>
             <div className={`transition-right ${visible ? "translate-x-0" : "translate-x-full"}`}>
 
-            <div className="py-20 2xl:px-0 lg:px-12 px-4 2xl:mx-auto 2xl:container bg-gray-50" style={{ height: 700 }}>
-                <div className="md:flex items-center justify-between w-full bg-gray-50">
+            <div className="py-20 2xl:px-0 lg:px-12 px-4 2xl:mx-auto 2xl:container" style={{ height: 700 }}>
+                <div className="md:flex items-center justify-between w-full ">
                     <div className="xl:w-1/3 md:w-1/2 w-full">
                         <h1 role="heading" className="focus:outline-none md:w-60 font-bold md:text-6xl text-4xl leading-tight text-gray-800">
                             Disfruta de tu <span className="font-normal italic"> vida sexual </span>

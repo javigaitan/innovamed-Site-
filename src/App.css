@@ -21,6 +21,10 @@
   transition: transform 0.5s ease-in-out;
 }
 
+.mobile-menu {
+  z-index: 9999; /* Puedes ajustar este valor según sea necesario para asegurarte de que el menú esté por encima de todos los demás elementos */
+}
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);

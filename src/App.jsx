@@ -6,6 +6,7 @@ import Nosotros from "./Componentes/Nosotros/Nosotros"
 import Footer from "./Componentes/Footer/Footer"
 import WhatsAppButton from "./Componentes/BtnWs/WhatsAppButton"
 import Cta from "./Componentes/CTA/Cta"
+import Contacto from "./Componentes/Contacto/Contacto"
 
 function App() {
   
@@ -17,6 +18,8 @@ function App() {
     <WhatsAppButton/>
     <Servicios/>
     <Nosotros/>
+    <Contacto/>
+
     <Footer/>
 
 

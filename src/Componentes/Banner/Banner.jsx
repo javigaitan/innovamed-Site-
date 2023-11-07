@@ -4,6 +4,11 @@ import "../../App.css";
 
 function Banner() {
     const [visible, setVisible] = useState(false);
+    const mensajeWhatsApp = "Hola, quiero saber mas sobre sus tratamientos.. ";
+
+  const handleWhatsAppClick = () => {
+    window.open(`https://api.whatsapp.com/send?phone=3512075102&text=${encodeURIComponent(mensajeWhatsApp)}`, "_blank");
+  };
 
   useEffect(() => {
     // Simula un retardo antes de hacer visible el componente
@@ -28,7 +33,7 @@ function Banner() {
                         En nuestro centros especializado, ofrecemos servicios para abordar una variedad de problemas sexuales, brindándote soluciones efectivas y discretas.
                         </p>
                         <div className="mt-10">
-                            <button className="flex items-center md:p-3 p-1 focus:outline-none text-xl font-medium leading-5 text-gray-800 focus:ring-2 focus:ring-offset-2 focus:ring-gray-700">
+                            <button onClick={handleWhatsAppClick} className="flex items-center md:p-3 p-1 focus:outline-none text-xl font-medium leading-5 text-gray-800 focus:ring-2 focus:ring-offset-2 focus:ring-gray-700">
                                 Leer Mas
                                 <svg className="ml-8" width={45} height={40} viewBox="0 0 45 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -44,7 +49,7 @@ function Banner() {
                     </div>
                     <div className="xl:w-4/6 md:w-1/2 w-full xl:pl-48">
                         <p role="contentinfo" className=" focus:outline-none text-base leading-6 mb-8 text-gray-600 md:mt-0 mt-10">
-                        "Descubre la felicidad en tu vida íntima. En nuestro hospital especializado, encontrará apoyo experto para revitalizar tu vida sexual y cultivar relaciones amorosas y satisfactorias"
+                        "Descubre la felicidad en tu vida íntima. En nuestro centro especializado, encontrará apoyo experto para revitalizar tu vida sexual y cultivar relaciones amorosas y satisfactorias"
                         </p>
                         <div className="w-full">
                             <img src={Fotobanner} alt="Purple flowers on a book" className="md:w-full sm:w-1/2 w-full" />

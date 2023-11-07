@@ -3,7 +3,7 @@ import Equipo from '../../assets/equipos-medicos.jpg'
 
 function Nosotros ()  {
     return (
-        <div className="2xl:container 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4">
+        <div id='nosotros'className="2xl:container 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4">
             <div className="flex lg:flex-row flex-col lg:gap-8 sm:gap-10 gap-12">
                 <div className="w-full lg:w-6/12">
                     <h2 className="w-full font-bold lg:text-4xl text-3xl lg:leading-10 leading-9">Somos un equipo de profesionales con amplia experiencia</h2>

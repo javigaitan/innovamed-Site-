@@ -16,7 +16,7 @@ function Banner() {
 
     return (
         <>
-            <div className={`transition-right ${visible ? "translate-x-0" : "translate-x-full"}`}>
+            <div id='banner'className={`transition-right ${visible ? "translate-x-0" : "translate-x-full"}`}>
 
             <div className="py-20 2xl:px-0 lg:px-12 px-4 2xl:mx-auto 2xl:container" style={{ height: 700 }}>
                 <div className="md:flex items-center justify-between w-full ">

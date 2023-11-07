@@ -1,5 +1,6 @@
 import React, {useRef} from 'react';
-import emailjs from '@emailjs/browser'
+import emailjs from '@emailjs/browser';
+import Swal from 'sweetalert2';
 
 function Contacto() {
 
@@ -13,11 +14,25 @@ function Contacto() {
         const apikey = 'QeUg4kpv-PPtqFrNC';
 
         emailjs.sendForm(serviceId, templateId, refForm.current , apikey)
-        .then(result => console.log(result.text))
-        .catch(error => console.error(error))
+        .then((result) => {
+            Swal.fire({
+                title: 'Mensaje Enviado',
+                text: '¡Tu mensaje ha sido enviado correctamente!',
+                icon: 'success',
+        });
 
+        refForm.current.reset();
+    })
 
-    }
+        .catch((error) => {
+            Swal.fire({
+                title: 'Error',
+                text: 'Hubo un error al enviar el mensaje. Por favor, inténtalo nuevamente más tarde.',
+                icon: 'error',
+              });
+              console.error(error);
+        });
+    };
   return (
     <>
       <div id='contacto' className="container mx-auto pt-16 xl:w-3/5 lg:w-3/5 h-full pt-5 pb-5 xl:pr-5 xl:pl-0 rounded-tr rounded-br">

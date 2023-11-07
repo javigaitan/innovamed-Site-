@@ -3,6 +3,7 @@ import Logo from "../../assets/Logo-Principal.png";
 import { Link } from "react-scroll";
 import '../../App.css';
 import Cta from "../CTA/Cta";
+import WhatsAppButton from "../BtnWs/WhatsAppButton";
 
 
 function Navbar() {
@@ -10,6 +11,11 @@ function Navbar() {
     const [mdOptionsToggle, setMdOptionsToggle] = useState(true);
     const [showMenu, setShowMenu] = useState(false);
     const [visible, setVisible] = useState(false);
+    const mensajeWhatsApp = "Hola, quiero sacar un turno en Innovamed soy ";
+
+  const handleWhatsAppClick = () => {
+    window.open(`https://api.whatsapp.com/send?phone=3512075102&text=${encodeURIComponent(mensajeWhatsApp)}`, "_blank");
+  };
 
     const handleMenuClick = () => {
         setShowMenu(false);
@@ -150,7 +156,7 @@ function Navbar() {
                                         </li>
                                         <li>
                                             <Link to="agenda" smooth={true} duration={500} className="dark:text-white text-gray-800 flex items-center space-x-2 focus:outline-none focus:ring-2 focus:ring-gray-800 hover:underline">
-                                                <button className="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-800 hover:opacity-90 w-48 h-12 text-lg text-white bg-gradient-to-l from-indigo-600 to-indigo-700 rounded">Agenda un turno</button>
+                                                <button className="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-800 hover:opacity-90 w-48 h-12 text-lg text-white bg-gradient-to-l from-indigo-600 to-indigo-700 rounded " onClick={handleWhatsAppClick} >Agenda un turno</button>
                                             </Link>
                                         </li>
                                     </ul>
@@ -161,8 +167,6 @@ function Navbar() {
 
                     </div>
                 </div>
-
-
             </div>
 
 

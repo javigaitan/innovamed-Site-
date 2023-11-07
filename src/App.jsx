@@ -14,8 +14,8 @@ function App() {
   return (
     <>
     <Navbar/>
-    <Banner/>
     <WhatsAppButton/>
+    <Banner/>
     <Servicios/>
     <Nosotros/>
     <Contacto/>

@@ -18,3 +18,11 @@
     font-size: 24px;
   }
   
+  .whatsapp-button {
+    /* ... estilos para el botón cuando no es visible ... */
+    display: none;
+  }
+  
+  .whatsapp-button.visible {
+    display: flex;
+  }

@@ -15,7 +15,7 @@ function Servicios () {
             <div className="flex lg:flex-row flex-col md:gap-14 gap-16 justify-between lg:mt-20 mt-16">
                 <div className="w-full lg:w-6/12">
                     <h2 className="font-bold lg:text-4xl text-3xl lg:leading-9 leading-7 text-gray-800">Nuestros servicios</h2>
-                    <p className="font-normal text-base leading-6 text-gray-600 mt-6 w-full lg:w-10/12 xl:w-9/12">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum.In the first place we have granted to God, and by this our present charter confirmed for us and our heirs forever that the English Church shall be free, and shall have her rights entire, and her liberties inviolate; and we will that it be thus observed; which is apparent from</p>
+                    <p className="font-normal text-base leading-6 text-gray-600 mt-6 w-full lg:w-10/12 xl:w-9/12">Adecuamos y personalizamos a cada paciente de acuerdo a su cuadro clínico, en una primera consulta podemos indicarte el mejor tratamiento a seguir para volver a tu vida normal. </p>
                 </div>
                 <div className="w-full lg:w-6/12">
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 lg:gap-12 gap-10">
@@ -75,8 +75,10 @@ function Servicios () {
 
                             </div>
                             <div className="">
-                                <p className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800">Tratamiento de remplazo hormonal</p>
-                                <p className="mt-2 font-normal text-base leading-6 text-gray-600">La falta de interés en las relaciones sexuales, junto con la apatía y la ausencia de erecciones matutinas o con estimulación, son síntomas clave de la disfunción eréctil.</p>
+                                <p className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800">Tratamiento de reemplazo hormonal</p>
+                                <p className="mt-2 font-normal text-base leading-6 text-gray-600">El tratamiento se realiza a través de la aplicación subcutánea de pequeños gránulos (pellets) de Hormonas Bioidénticas.
+
+Esta terapia, en los hombres mejora la falta de erección y los síntomas de la andropausia, y en las mujeres la sintomatología de la menopausia y la disminución del deseo sexual.</p>
                             </div>
                         </div>
 
@@ -90,7 +92,7 @@ function Servicios () {
                             </div>
                             <div className="">
                                 <p className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800">Tratamiento de remplazo de testosterona</p>
-                                <p className="mt-2 font-normal text-base leading-6 text-gray-600">La falta de interés en las relaciones sexuales, junto con la apatía y la ausencia de erecciones matutinas o con estimulación, son síntomas clave de la disfunción eréctil.</p>
+                                <p className="mt-2 font-normal text-base leading-6 text-gray-600">La terapia de testosterona puede ayudar a revertir los efectos del hipogonadismo.</p>
                             </div>
                         </div>
 

@@ -18,7 +18,7 @@ function Servicios () {
                     <p className="font-normal text-base leading-6 text-gray-600 mt-6 w-full lg:w-10/12 xl:w-9/12">Adecuamos y personalizamos a cada paciente de acuerdo a su cuadro clínico, en una primera consulta podemos indicarte el mejor tratamiento a seguir para volver a tu vida normal. </p>
                 </div>
                 <div className="w-full lg:w-6/12">
-                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 lg:gap-12 gap-10">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 lg:gap-12 gap-10"> 
                         {/* <!-- Team Card --> */}
                         <div className="flex p-4 shadow-md">
                             <div className="mr-6">
@@ -78,7 +78,7 @@ function Servicios () {
                                 <p className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800">Tratamiento de reemplazo hormonal</p>
                                 <p className="mt-2 font-normal text-base leading-6 text-gray-600">El tratamiento se realiza a través de la aplicación subcutánea de pequeños gránulos (pellets) de Hormonas Bioidénticas.
 
-Esta terapia, en los hombres mejora la falta de erección y los síntomas de la andropausia, y en las mujeres la sintomatología de la menopausia y la disminución del deseo sexual.</p>
+Esta terapia en los hombres mejora la falta de erección y los síntomas de la andropausia y en las mujeres la sintomatología de la menopausia y la disminución del deseo sexual.</p>
                             </div>
                         </div>
 

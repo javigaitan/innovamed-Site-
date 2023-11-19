@@ -16,10 +16,10 @@ function Footer() {
                     <div className="text-black flex flex-col md:items-center f-f-l pt-3">
                         <h1 className="text-2xl font-black">Compromiso. Confianza. Seguridad.</h1>
                         <div className="md:flex items-center mt-5 md:mt-10 text-base text-color f-f-l">
-                            <h2 className=" md:mr-6 pb-4 md:py-0 cursor-pointer">9 de julio 1075, Cordoba Capital</h2>
+                            <a href='https://maps.app.goo.gl/qEJv3qWUuaddV36v6' className=" md:mr-6 pb-4 md:py-0 cursor-pointer">9 de julio 1075, Cordoba Capital</a>
                             <h2 className=" md:mr-6 pb-4 md:py-0 cursor-pointer">Arenales 1611, CABA</h2>
 
-                            <h2 className=" md:mr-6 pb-4 md:py-0 cursor-pointer">Tel:+54 9 351 211-7686 </h2>
+                            <a href="https://api.whatsapp.com/send?phone=3512117686&text=Hola%2C%20quiero%20sacar%20un%20turno%20en%20Innovamed%20soy%20" className=" md:mr-6 pb-4 md:py-0 cursor-pointer">Tel:+54 9 351 211-7686 </a>
 
                         </div>
                         

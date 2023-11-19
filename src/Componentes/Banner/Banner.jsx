@@ -7,7 +7,7 @@ function Banner() {
     const mensajeWhatsApp = "Hola, quiero saber mas sobre sus tratamientos.. ";
 
   const handleWhatsAppClick = () => {
-    window.open(`https://api.whatsapp.com/send?phone=3512075102&text=${encodeURIComponent(mensajeWhatsApp)}`, "_blank");
+    window.open(`https://api.whatsapp.com/send?phone=3512117686&text=${encodeURIComponent(mensajeWhatsApp)}`, "_blank");
   };
 
   useEffect(() => {

@@ -17,9 +17,13 @@ function Footer() {
                         <h1 className="text-2xl font-black">Compromiso. Confianza. Seguridad.</h1>
                         <div className="md:flex items-center mt-5 md:mt-10 text-base text-color f-f-l">
                             <h2 className=" md:mr-6 pb-4 md:py-0 cursor-pointer">9 de julio 1075, Cordoba Capital</h2>
+                            <h2 className=" md:mr-6 pb-4 md:py-0 cursor-pointer">Arenales 1611, CABA</h2>
+
                             <h2 className=" md:mr-6 pb-4 md:py-0 cursor-pointer">Tel:+54 9 351 211-7686 </h2>
 
                         </div>
+                        
+                        
                         <div className="my-6 text-base text-color f-f-l">
                             <ul className="md:flex items-center">
                                 <li className="md:mr-6 cursor-pointer pt-4 lg:py-0">

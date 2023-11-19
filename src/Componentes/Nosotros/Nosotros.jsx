@@ -7,7 +7,10 @@ function Nosotros ()  {
             <div className="flex lg:flex-row flex-col lg:gap-8 sm:gap-10 gap-12">
                 <div className="w-full lg:w-6/12">
                     <h2 className="w-full font-bold lg:text-4xl text-3xl lg:leading-10 leading-9">Somos un equipo de profesionales con amplia experiencia</h2>
-                    <p className="font-normal text-base leading-6 text-gray-600 mt-6">En Innovamed, nos comprometemos a hablar con total transparencia y sinceridad. Creemos firmemente que abordar la disfunción eréctil y la eyaculación precoz de manera abierta es el primer paso para superar estos desafíos. Proporcionamos información precisa y oportuna para brindarte la tranquilidad que mereces.</p>
+                    <p className="font-normal text-base leading-6 text-gray-600 mt-6">En Innovamed, nos comprometemos a hablar con total transparencia y sinceridad. Creemos firmemente que abordar la disfunción eréctil y la eyaculación precoz de manera abierta es el primer paso para superar estos desafíos. Proporcionamos información precisa y oportuna para brindarte la tranquilidad que mereces.
+                    <br/>
+                    Tenemos más de 25 años de experiencia en medicina sexual y nuestros médicos son miembros activos de la Sociedad Argentina de Sexología.                    
+                    </p>
                 </div>
                 <div className="w-full lg:w-6/12">
                     <img className="lg:block hidden w-full" src={Equipo} alt="people discussing on board" />

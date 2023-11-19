@@ -15,7 +15,9 @@ function Servicios () {
             <div className="flex lg:flex-row flex-col md:gap-14 gap-16 justify-between lg:mt-20 mt-16">
                 <div className="w-full lg:w-6/12">
                     <h2 className="font-bold lg:text-4xl text-3xl lg:leading-9 leading-7 text-gray-800">Nuestros servicios</h2>
-                    <p className="font-normal text-base leading-6 text-gray-600 mt-6 w-full lg:w-10/12 xl:w-9/12">Adecuamos y personalizamos a cada paciente de acuerdo a su cuadro clínico, en una primera consulta podemos indicarte el mejor tratamiento a seguir para volver a tu vida normal. </p>
+                    <p className="font-normal text-base leading-6 text-gray-600 mt-6 w-full lg:w-10/12 xl:w-9/12">Adecuamos y personalizamos a cada paciente de acuerdo a su cuadro clínico, en una primera consulta podemos indicarte el mejor tratamiento a seguir para volver a tu vida normal.
+                    <br/>
+                    Somos expertos en el tratamiento de pacientes con condiciones médicas como hipertensión, diabetes, diálisis, bypass, operaciones, stent coronarios, y hasta 90 años de edad. Revertimos con éxito las disfunciones eréctiles severas en una sola consulta.  </p>
                 </div>
                 <div className="w-full lg:w-6/12">
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 lg:gap-12 gap-10"> 

@@ -31,7 +31,8 @@ function Banner() {
                         </h1>
                         <p role="contentinfo" className="focus:outline-none text-base leading-6 mt-8 text-gray-600 2xl:pr-24 xl:pr-0 pr-12">
                         En nuestro centros especializado, ofrecemos servicios para abordar una variedad de problemas sexuales, brindándote soluciones efectivas y discretas.
-                        </p>
+                        <br/>
+                        "RESULTADOS GARANTIZADOS EN UNA ÚNICA CONSULTA."                        </p>
                         <div className="mt-10">
                             <button onClick={handleWhatsAppClick} className="flex items-center md:p-3 p-1 focus:outline-none text-xl font-medium leading-5 text-gray-800 focus:ring-2 focus:ring-offset-2 focus:ring-gray-700">
                                 Leer Mas

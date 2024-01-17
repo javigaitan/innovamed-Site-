@@ -1,7 +1,7 @@
 
-## Lutheria Gaitan
+## Innovamed
 
-Sera una app para mostrar y ofrecer los trabajos de un luthier local. 
+Sera una app para mostrar y ofrecer servicios. 
 Facilitar la comunicaicon con clientes a travez de mensajeria directa.
 
 ## Funcionalidades

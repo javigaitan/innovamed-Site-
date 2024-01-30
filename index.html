@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
 
 <head>
@@ -11,8 +11,9 @@
     content="Innovamed,Innovamed Medicina Sexual,Innovamed Cba,Innovamed Cordoba,Innovamed Medicina, Medicina Sexual, Córdoba, Buenos Aires, Disfunción Eréctil, Terapia de Ondas Focales, Falta de Deseo, Tratamiento de Reemplazo Hormonal, Reemplazo de Testosterona, Eyaculación Precoz, Equipo Profesional, Experiencia, Compromiso, Confianza, Seguridad, 9 de julio 1075, Teléfono +54 9 351 211-7686" />
   <meta name="author" content="Innovamed Cba" />
 
-
   <title>Innovamed Medicina Sexual</title>
+
+  <!-- Google tag (gtag.js) -->
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-3VSVZMRPLZ"></script>
   <script>
@@ -20,8 +21,84 @@
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
 
-    gtag('config', 'G-3VSVZMRPLZ');
+    gtag('config', 'G-3VSVZMRPLZ', { 'allow_enhanced_conversions': true });
   </script>
+
+  <script>
+    var g_EC = {
+      email: 'input[type="email"]',
+      phone_number: 'input[type="tel"]',
+    };
+
+    var g_countrycode = '+54';
+
+    window.g_setupEC = Object.create(null);
+    window.g_ECObj = Object.create(null);
+
+    document.addEventListener('input', g_setup_ECObj);
+    function g_setup_ECObj(e) {
+      var input = e.target;
+      for (i in g_EC) {
+        if (input.matches(g_EC[i])) {
+          g_setupEC['g_' + i] = input.value;
+        }
+      }
+      g_save_toECObj();
+    }
+
+    function g_save_toECObj() {
+      for (i in g_EC) {
+        if (g_setupEC['g_' + i]) {
+          if (i == 'email' && g_validateEmail(g_setupEC['g_' + i])) {
+            window.g_ECObj[i] = g_setupEC['g_' + i];
+          }
+          if (i == 'phone_number' && window.g_ECObj['email']) {
+            window.g_ECObj[i] = g_setupEC['g_' + i];
+            window.g_ECObj[i] = g_countrycode + g_ECObj[i].replace(/\D/g, '');
+          }
+        }
+      }
+    }
+
+    function g_validateEmail(email) {
+      return /\S+@\S+\.\S+/.test(email);
+    }
+
+    function g_validateString(str) {
+      return str.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+    }
+
+    g_save_toECObj();
+  </script>
+
+  <!-- Event snippet for contacto conversion page -->
+  <script>
+    document.querySelector("#contact").addEventListener('submit', function () {
+      gtag('set', 'user_data', {
+        "email": g_ECObj.email,
+        "phone_number": g_ECObj.phone_number
+      });
+
+      gtag('event', 'conversion', {
+        'send_to': 'AW-11409322162/qVGdCLPEhPYYELLhscAq'
+      });
+    })
+  </script>
+
+  <style>
+    body,
+    html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+
+    #root {
+      min-height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+  </style>
 </head>
 
 <body>

@@ -1,34 +1,58 @@
 #root {
-  max-width: 1280px;
+  max-width: 1680px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 0rem;
   text-align: center;
+}
+
+
+
+
+.main {
+  width: 70%;
+
 }
 
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
+
 .hover\:scale-105:hover {
   transform: scale(1.05);
 }
+
 .transition-right {
   transition: transform 0.5s ease-in-out;
 }
+
 .transition-down {
   transition: transform 0.5s ease-in-out;
 }
 
 .mobile-menu {
-  z-index: 9999; /* Puedes ajustar este valor según sea necesario para asegurarte de que el menú esté por encima de todos los demás elementos */
+  z-index: 9999;
+  /* Puedes ajustar este valor según sea necesario para asegurarte de que el menú esté por encima de todos los demás elementos */
 }
+
+
+
+
+
+.resolucion {
+  width: 99%;
+  text-align: center;
+}
+
 
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

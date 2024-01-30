@@ -16,8 +16,8 @@ function WhatsAppButton() {
       const scrollPosition = window.scrollY;
       const windowHeight = window.innerHeight;
 
-      // Muestra el botón de WhatsApp cuando el usuario ha desplazado más allá de la mitad de la ventana
-      setIsVisible(scrollPosition > windowHeight / 2);
+      // Muestra el botón de WhatsApp 
+      setIsVisible(scrollPosition > windowHeight / 30);
     };
 
     window.addEventListener('scroll', handleScroll);

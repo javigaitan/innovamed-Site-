@@ -71,17 +71,24 @@
     g_save_toECObj();
   </script>
 
-  <!-- Event snippet for contacto conversion page -->
+  <!--Event snippet for contacto conversion page -->
   <script>
-    document.querySelector("#contact").addEventListener('submit', function () {
-      gtag('set', 'user_data', {
-        "email": g_ECObj.email,
-        "phone_number": g_ECObj.phone_number
-      });
+    document.addEventListener('DOMContentLoaded', function () {
+      (function googleFormValidation() {
+        if (document.body && document.body.innerText.includes("¡Tu mensaje ha sido enviado correctamente!")) {
+          console.log('formulario enviado');
+          gtag('set', 'user_data', {
+            "email": g_ECObj.email,
+            "phone_number": g_ECObj.phone_number
+          });
 
-      gtag('event', 'conversion', {
-        'send_to': 'AW-11409322162/qVGdCLPEhPYYELLhscAq'
-      });
+          gtag('event', 'conversion', {
+            'send_to': 'AW-11409322162/qVGdCLPEhPYYELLhscAq'
+          });
+        } else {
+          setTimeout(googleFormValidation, 500);
+        }
+      })();
     })
   </script>
 

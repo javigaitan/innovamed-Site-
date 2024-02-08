@@ -18,15 +18,19 @@ Facilitar la comunicaicon con clientes a travez de mensajeria directa.
 - JavaScript
 - ReactJS
 - Vite
-- Firebase
 
 ## Deploy
 
 Vercel
+Hostinger
 
 ## Desarrollador
 
-- Javi Gaitan
+- Javier Gaitan
+
+## Desarrolladora / Mantención de Sitio 
+
+- Guadalupe Palmero
 
 
 ## Licencia

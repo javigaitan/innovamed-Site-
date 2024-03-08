@@ -48,7 +48,7 @@ function DisfuncionErectil() {
                 </div>
 
                 <div className="mt-8">
-                    <h2 className="text-2xl font-bold mb-4">Causas</h2>
+                    <h2 className="text-2xl font-bold text-purple-950 mb-4">Causas</h2>
                     <p>
                         La excitación sexual masculina es un proceso complejo que involucra al cerebro, las hormonas, las emociones, los nervios, los músculos y los vasos sanguíneos. La disfunción eréctil puede ser el resultado de un problema con alguno de estos.
                         <br /><br />

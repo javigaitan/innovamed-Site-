@@ -48,7 +48,7 @@ function Banner() {
                                     onClick={handleWhatsAppClick}
                                     className="flex items-center md:p-3 p-2 focus:outline-none text-lg font-medium font-montserrat leading-7 text-white focus:ring-2 focus:ring-offset-2 focus:ring-purple-950 ml-4 md:ml-0 rounded-full bg-gradient-to-r from-purple-700 to-purple-400"
                                 >
-                                    <span className="ml-10">+ info</span>
+                                    <span className="ml-10">Más información</span>
                                     <svg className="ml-2" width={45} height={40} viewBox="0 0 45 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         {/* ... SVG Path Data ... */}
                                     </svg>

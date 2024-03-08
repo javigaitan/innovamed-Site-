@@ -28,12 +28,9 @@ function Cta() {
             Y la salud con tu pareja también lo es <br />Prioriza tu bienestar sexual y fortalece tu relación de pareja
           </p>
           <br />
-          <button className="mt-4 xl:mt-2  underline-offset-4 transition duration-300 ease-in-out flex justify-start items-center space-x-2">
-            <p className="mt-4 xl:mt-2  underline-offset-4 transition duration-300 ease-in-out flex justify-start items-center space-x-2 cursor-pointer bg-gradient-to-r from-purple-700 to-purple-400 rounded-full p-3"
-              onClick={handleWhatsAppClick}>Agenda un turno</p>
-
+          <button className="mt-4 xl:mt-2 transition duration-300 ease-in-out bg-gradient-to-r from-purple-700 to-purple-400 hover:from-purple-600 hover:to-purple-300 flex justify-center items-center space-x-2 px-6 py-3 rounded-full" onClick={handleWhatsAppClick}>
+            <p className="text-white text-lg font-semibold font-montserrat">Agenda un turno</p>
           </button>
-
         </div>
       </div>
     </div>

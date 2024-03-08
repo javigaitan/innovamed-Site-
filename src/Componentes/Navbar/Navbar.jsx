@@ -278,7 +278,7 @@ function Navbar() {
                                         </li>
                                         <li>
                                             <Link to="agenda" smooth={true} duration={500} className="dark:text-white text-gray-800 flex items-center space-x-2 focus:outline-none focus:ring-2 focus:ring-purple-950 hover:underline">
-                                                <button className="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-800 hover:opacity-90 w-48 h-12 text-lg text-white bg-gradient-to-l from-purple-800 to-purple-950 rounded " onClick={handleWhatsAppClick} >
+                                                <button className="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-800 hover:opacity-90 w-48 h-12 text-lg text-purple-800 bg-white rounded" onClick={handleWhatsAppClick}>
                                                     Agenda un turno
                                                 </button>
                                             </Link>
